@@ -1,0 +1,24 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int a,px,py,qx,qy;
+    cin>>a;
+    for (int i=0;i<a;i++)
+        {
+        cin>>px>>py>>qx>>qy;
+        int rx=qx+(qx-px);
+        int ry=qy+(qy-py);
+        cout<<rx<<'\t';
+        cout<<ry<<'\n'; 
+        
+    
+    }
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    return 0;
+}
